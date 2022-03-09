@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg77"
+   sodipodi:docname="arrow_down.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview79"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="9.3691649"
+     inkscape:cx="19.372057"
+     inkscape:cy="40.878777"
+     inkscape:window-width="1856"
+     inkscape:window-height="1057"
+     inkscape:window-x="56"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg77" />
+  <defs
+     id="defs63">
+    <linearGradient
+       id="b">
+      <stop
+         stop-color="#eeeeec"
+         offset="0"
+         id="stop45" />
+      <stop
+         stop-color="#eeeeec"
+         stop-opacity="0"
+         offset="1"
+         id="stop47" />
+    </linearGradient>
+    <radialGradient
+       id="d"
+       cx="32.27"
+       cy="42.769"
+       r="29.698"
+       gradientTransform="matrix(1.4242 0 0 1.5022 -13.69 -15.288)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#0aea0a"
+         offset="0"
+         id="stop50" />
+      <stop
+         stop-color="#47ec4d"
+         offset=".33036"
+         id="stop52" />
+      <stop
+         stop-color="#2bd834"
+         offset=".5"
+         id="stop54" />
+      <stop
+         stop-color="#10b426"
+         offset=".875"
+         id="stop56" />
+      <stop
+         stop-color="#076a11"
+         offset="1"
+         id="stop58" />
+    </radialGradient>
+    <radialGradient
+       id="c"
+       cx="36.77"
+       cy="64"
+       r="27.513"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#b" />
+    <radialGradient
+       id="a"
+       cx="13.894"
+       cy="72.554"
+       r="16.448"
+       gradientTransform="matrix(1 0 0 .51198 0 30.26)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#b" />
+  </defs>
+  <path
+     d="m61.968 30.445a29.698 29.698 0 1 1 -59.397 0 29.698 29.698 0 1 1 59.397 0z"
+     fill="url(#d)"
+     id="path65"
+     transform="matrix(1.0081 0 0 1.0081 -1.192 .76532)" />
+  <path
+     d="M 47.8207,29.0014 35.1947,16.4684 C 34.1189,14.8228 32.5998,14 30.6375,14 c -2.0241,-2e-5 -3.606,0.82277 -4.7455,2.4684 l -12.533,12.533 c -1.1376,1.1395 -1.7064,2.4365 -1.7064,3.8909 4e-5,1.52 0.56933,2.8493 1.7079,3.9879 1.13857,1.1386 2.4679,1.7078 3.9879,1.7079 1.3926,-4e-5 2.6896,-0.56982 3.8909,-1.7093 l 3.7982,-3.8909 v 13.289 c 2e-5,1.7093 0.55386,3.0545 1.6615,4.0357 1.10764,0.9812 2.3887,1.4717 3.8431,1.4718 1.5201,-6e-5 2.8339,-0.49064 3.9416,-1.4718 1.1077,-0.98116 1.6615,-2.3265 1.6615,-4.0357 v -13.289 l 3.7953,3.8909 c 1.1396,1.1395 2.4375,1.7093 3.8938,1.7093 1.5181,-4e-5 2.8469,-0.56933 3.9865,-1.7079 1.1396,-1.13857 1.7093,-2.4679 1.7093,-3.9879 0,-1.4544 -0.56977,-2.7514 -1.7093,-3.8909 z"
+     fill="#eeeeec"
+     id="path67" />
+  <path
+     d="m64.282 45.23a27.513 27.513 0 1 1 -55.026 0 27.513 27.513 0 1 1 55.026 0z"
+     fill="url(#c)"
+     opacity=".64"
+     id="path69"
+     transform="matrix(1.0081 0 0 1.0081 -5.1698 -11.677)" />
+  <path
+     d="m30.341 53.586a16.842 16.842 0 0 1 -32.896 5.0928l16.054-5.0928z"
+     fill="url(#a)"
+     id="path71"
+     transform="matrix(-.91009 1.1621 -1.1621 -.91009 103.47 62.241)" />
+  <path
+     d="m30.341 53.586a16.842 16.842 0 0 1 -32.896 5.0928l16.054-5.0928z"
+     fill="url(#a)"
+     id="path73"
+     transform="matrix(-1.4674 -.16002 .16002 -1.4674 41.862 109.2)" />
+  <path
+     d="m30.341 53.586a16.842 16.842 0 0 1 -32.896 5.0928l16.054-5.0928z"
+     fill="url(#a)"
+     opacity=".5"
+     id="path75"
+     transform="matrix(1.0438 -1.0438 1.0438 1.0438 -35.856 -8.0299)" />
+</svg>

@@ -1,0 +1,67 @@
+{% include "nav_bar.html" %}
+
+{% block content %}
+
+
+<p text-base >c'est la page 3</p>
+
+<div class='w-1/4 m-2 border-2 rounded-md h-full'>
+    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center m-4">
+        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+        <span>Download</span>
+    </button>
+  
+    <div class="relative pt-1 bg-gray-300 m-4 hover:bg-gray-400">
+        <label for="slider" class="form-label">Joint value</label>
+        <input
+        type="range"
+        class="
+            form-range
+            appearance-none
+            w-full
+            h-6
+            p-0
+        
+            focus:outline-none focus:ring-0 focus:shadow-none
+        "
+        id="slider"
+        />
+    </div>
+
+    <div class='grid grid-rows-2 grid-flow-col gap-4'>
+        <div></div>
+        <div>
+            <img
+            src="../ressources/arrow_left.svg"
+            alt="un triangle aux trois côtés égaux"
+            height="87px"
+            width="100px" />
+        </div>
+        <div> 
+            <img
+            src="../ressources/arrow_up.svg"
+            alt="un triangle aux trois côtés égaux"
+            height="87px"
+            width="100px" />
+        </div>
+        <div>
+            <img
+            src="../ressources/arrow_down.svg"
+            alt="un triangle aux trois côtés égaux"
+            height="87px"
+            width="100px" />
+        </div>
+        <div></div>
+        <div>
+            <img
+            src="../ressources/arrow_right.svg"
+            alt="un triangle aux trois côtés égaux"
+            height="87px"
+            width="100px" />
+
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+

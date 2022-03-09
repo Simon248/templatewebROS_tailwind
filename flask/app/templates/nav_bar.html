@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Nav -->
+<nav id="main_nav">
+    <img src="../ressources/fake-logo2.png" class="logo-image">
+    <h1 class="project_name">nom de mon projet</h1>
+  <ul>
+    <li class="current"><a href="{{ url_for('index') }}">Home page</a></li>
+    <li>
+      <a href="#">Dropdown</a>
+      <ul class="dropdown">
+        <li><a href="#">Sub-1</a></li>
+        <li><a href="#">Magna phasellus</a></li>
+        
+        <li><a href="#">Veroeros feugiat</a></li>
+      </ul>
+    </li>
+    <li><a href="{{ url_for('page1') }}">Page 1</a></li>
+    <li><a href="{{ url_for('page2') }}">Page 2</a></li>
+    <li><a href="{{ url_for('page3') }}">Page 3</a></li>
+  </ul>
+
+</nav>
+<script src="public/js/hilight_menu.js"></script><!-- 
+<script src="public/js/jquery.dropotron.min.js"></script>
+<script src="public/js/jquery.scrolly.min.js"></script>
+<script src="public/js/browser.min.js"></script>
+<script src="public/js/breakpoints.min.js"></script>
+<script src="public/js/util.js"></script>
+<script src="public/js/main.js"></script> -->
+{% endblock %}

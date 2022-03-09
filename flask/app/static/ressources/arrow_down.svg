@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="b">
+   <stop stop-color="#eeeeec" offset="0"/>
+   <stop stop-color="#eeeeec" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <radialGradient id="d" cx="32.27" cy="42.769" r="29.698" gradientTransform="matrix(1.4242 0 0 1.5022 -13.69 -15.288)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#0aea0a" offset="0"/>
+   <stop stop-color="#47ec4d" offset=".33036"/>
+   <stop stop-color="#2bd834" offset=".5"/>
+   <stop stop-color="#10b426" offset=".875"/>
+   <stop stop-color="#076a11" offset="1"/>
+  </radialGradient>
+  <radialGradient id="c" cx="36.77" cy="64" r="27.513" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+  <radialGradient id="a" cx="13.894" cy="72.554" r="16.448" gradientTransform="matrix(1 0 0 .51198 0 30.26)" gradientUnits="userSpaceOnUse" xlink:href="#b"/>
+ </defs>
+ <path transform="matrix(1.0081 0 0 1.0081 -1.192 .76532)" d="m61.968 30.445a29.698 29.698 0 1 1 -59.397 0 29.698 29.698 0 1 1 59.397 0z" fill="url(#d)"/>
+ <path d="m13.362 36.783 12.626 12.533c1.0758 1.6456 2.5949 2.4684 4.5572 2.4684 2.0241 2e-5 3.606-0.82277 4.7455-2.4684l12.533-12.533c1.1376-1.1395 1.7064-2.4365 1.7064-3.8909-4e-5 -1.52-0.56933-2.8493-1.7079-3.9879s-2.4679-1.7078-3.9879-1.7079c-1.3926 4e-5 -2.6896 0.56982-3.8909 1.7093l-3.7982 3.8909v-13.289c-2e-5 -1.7093-0.55386-3.0545-1.6615-4.0357s-2.3887-1.4717-3.8431-1.4718c-1.5201 6e-5 -2.8339 0.49064-3.9416 1.4718s-1.6615 2.3265-1.6615 4.0357v13.289l-3.7953-3.8909c-1.1396-1.1395-2.4375-1.7093-3.8938-1.7093-1.5181 4e-5 -2.8469 0.56933-3.9865 1.7079s-1.7093 2.4679-1.7093 3.9879c0 1.4544 0.56977 2.7514 1.7093 3.8909z" fill="#eeeeec"/>
+ <path transform="matrix(1.0081 0 0 1.0081 -5.1698 -11.677)" d="m64.282 45.23a27.513 27.513 0 1 1 -55.026 0 27.513 27.513 0 1 1 55.026 0z" fill="url(#c)" opacity=".64"/>
+ <path transform="matrix(-.91009 1.1621 -1.1621 -.91009 103.47 62.241)" d="m30.341 53.586a16.842 16.842 0 0 1 -32.896 5.0928l16.054-5.0928z" fill="url(#a)"/>
+ <path transform="matrix(-1.4674 -.16002 .16002 -1.4674 41.862 109.2)" d="m30.341 53.586a16.842 16.842 0 0 1 -32.896 5.0928l16.054-5.0928z" fill="url(#a)"/>
+ <path transform="matrix(1.0438 -1.0438 1.0438 1.0438 -35.856 -8.0299)" d="m30.341 53.586a16.842 16.842 0 0 1 -32.896 5.0928l16.054-5.0928z" fill="url(#a)" opacity=".5"/>
+</svg>
