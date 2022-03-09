@@ -10,7 +10,7 @@ services:
       - 80:80
     depends_on:
       - flask
-flask:
+  flask:
     build: flask
     # environment: 
     #   - FLASK_SERVER_PORT=9091
@@ -19,7 +19,7 @@ flask:
     volumes:
       - './flask:/src'
     working_dir: /src
-    command: /bin/bash -c "python3 base_gui.py"
+    # command: /bin/bash -c "python3 base_gui.py"
     # "flask run" #"python3 base_gui.py"   ==> essayer en mettant gunicorn (dans requirements  gunicorn==20.1.0 puis ligne suivante)
     #CMD ["gunicorn","--timeout","600","-b",":9091","-w","4","cadviewer:app"] 
     # working_dir: /src/app/static
